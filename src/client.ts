@@ -8,7 +8,6 @@ export const client = new Client({
     token: process.env.DISCORD_BOT_TOKEN!
 })
 
-
 client.addCommand(
     loginCommand,
     friendCommand
