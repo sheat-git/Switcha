@@ -1,0 +1,22 @@
+v: 0
+icon: ./icon.png
+micros:
+  - name: bot
+    src: ./src/
+    engine: nodejs16
+    commands:
+      - npm run build
+    include:
+      - build
+    run: "node build/index.js"
+    dev: "node build/dev.js"
+    public_routes:
+      - "/interactions"
+    presets:
+      env:
+        - name: DISCORD_APPLICATION_ID
+          description: Discord Application ID
+        - name: DISCORD_PUBLIC_KEY
+          description: Discord Public Key
+        - name: DISCORD_BOT_TOKEN
+          description: Discord Bot Token
