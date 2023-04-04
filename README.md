@@ -1,3 +1,3 @@
 # Switcha
 
-https://deta.space/discovery/r/tnjnxpdtmbvkrexd
+https://deta.space/discovery/@sheat/switcha/
